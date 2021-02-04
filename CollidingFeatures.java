@@ -1,5 +1,9 @@
 class CollidingFeatures {
     public boolean isContainingChar(String str){
-        return "ggg".contains(str);
+        return "abc".contains(str);
+    }
+
+    public boolean isFeatureAOn(){
+        return isContainingChar("a");
     }
 }

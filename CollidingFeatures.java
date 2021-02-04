@@ -1,5 +1,5 @@
 class CollidingFeatures {
     public boolean isContainingChar(String str){
-        return "abc".contains(str);
+        return "def".contains(str);
     }
 }
